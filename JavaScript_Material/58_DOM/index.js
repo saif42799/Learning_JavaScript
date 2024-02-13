@@ -6,3 +6,4 @@
 //       JavaScript can access the DOM to dynamically 
 //       change the context, structure, and style of web page.
 
+
