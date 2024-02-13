@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="myCheckBox">
+    <label for="myCheckBox">Subscribe</label><br><br>  
+    <!-- for is basically a reference to the id --> 
+
+    <input type="radio" id="visaBtm" name="card"> 
+    <!-- name is given to all radio choices so you can only choose one choices and not all --> 
+    <label for="visaBtm">Visa</label><br>
+
+    <input type="radio" id="masterBtm" name="card">
+    <label for="masterBtm">Master Card</label><br>
+
+    <input type="radio" id="paypalBtm" name="card">
+    <label for="paypalBtm">Paypal</label><br><br>
+
+    <button type="submit" id="mySubmit">Submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
